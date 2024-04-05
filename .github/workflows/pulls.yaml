@@ -1,7 +1,7 @@
 name: Check PR
 
 on:
-  pull_request_target:
+  pull_request:
 
 jobs:
   check-sign-off:
@@ -13,4 +13,4 @@ jobs:
       contents: read
       pull-requests: write
     steps:
-      - uses: live627/check-pr-signoff-action@v1
+      - uses: live627/check-pr-signoff-action@v1.0.0
