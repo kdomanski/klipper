@@ -9,6 +9,8 @@ jobs:
     env:
       FORCE_COLOR: 1
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: live627/check-pr-signoff-action@v1
         with:
