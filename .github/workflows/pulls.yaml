@@ -12,6 +12,7 @@ jobs:
     permissions:
       contents: write
       issues: write
+      pull-requests: write
     steps:
       - uses: live627/check-pr-signoff-action@v1
         with:
