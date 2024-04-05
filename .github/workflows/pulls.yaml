@@ -13,4 +13,5 @@ jobs:
       contents: read
       pull-requests: write
     steps:
-      - uses: live627/check-pr-signoff-action@v1.0.0
+      # - uses: live627/check-pr-signoff-action@v1.0.0
+      - uses: cloudforet-io/check-pr-action@v1
